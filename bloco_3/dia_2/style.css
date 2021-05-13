@@ -1,0 +1,33 @@
+
+h1{
+  font-size: 65px;
+  color: orange;
+  font-family: sans-serif;
+  text-align: center;
+ }
+ #lista{
+   background-color:aqua;
+ }
+ .stiloestiloso{
+   background-color: rgb(122,155,186);
+ }
+ #paragrafo{
+   font-weight: 600;
+   font-size: 3em;
+   font-style: italic;
+   line-height: 20px;
+   text-align: center;
+ }
+ body{
+   background-color: aquamarine;
+   font-size: 16px;
+ }
+ #amarelo{
+   color: yellow;
+ }
+ #vermelho{
+   color: red;
+ }
+ #marrom{
+   color: brown;
+ }

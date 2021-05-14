@@ -26,14 +26,12 @@ border:solid black 5px;
 }
 /*  */
 .super-mario{
-
   width: 100px;
   position: absolute;
   z-index: 1;
 
 }
 .goomba{
-
   width: 50px;
   position: absolute;
   z-index: 2;
@@ -51,7 +49,6 @@ left: 380px;
 }
 
 .baloon{
-
 position: absolute;
 width:150px;
 left: 350px;
@@ -60,9 +57,18 @@ z-index: 5;
 }
 
 .bowser{
-
   width: 200px;
   position: absolute;
   left: 500px;
 
 }
+.exercicio1 { 
+  max-height: 500px;
+  border: 1px solid black;
+}
+.exercicio2{
+  margin-top: 300px;
+  display: block;
+}
+
+

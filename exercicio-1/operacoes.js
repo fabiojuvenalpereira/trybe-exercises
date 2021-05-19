@@ -1,4 +1,4 @@
-let a = 10 ;
+let a = 50 ;
 let b = 5 ;
 let selecao = "adicao" ;
 

@@ -7,3 +7,5 @@ for (let index = 0; index < numbers.length; index += 1) {
 }
 console.log('A soma do Array é: ' + sum);
 // exercicio 3
+console.log('A média é: ' + sum / numbers.length);
+// exercicio4

@@ -7,5 +7,11 @@ for (let index = 0; index < numbers.length; index += 1) {
 }
 console.log('A soma do Array é: ' + sum);
 // exercicio 3
-console.log('A média é: ' + sum / numbers.length);
+let med = sum / numbers.length;
+console.log('A média é: ' + med);
 // exercicio4
+if (med > 20) {
+    console.log('O valor é maior que 20');
+} else {
+    console.log('O valor é menor ou igual a 20');
+}

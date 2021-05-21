@@ -3,5 +3,5 @@ let asteristico = '';
 
 for (let indexX = 0; indexX < n; indexX += 1) {
     asteristico += '*';
-    console.log(asteristico)
+    console.log(asteristico);
 }

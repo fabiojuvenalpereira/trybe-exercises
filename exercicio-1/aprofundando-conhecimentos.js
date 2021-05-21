@@ -32,7 +32,7 @@ for (let indexCompare = 0; indexCompare < numbers.length; indexCompare += 1) {
 }
 console.log('O maior número do Array é: ' + maiorValor);
 
-//exercicio 6
+// exercicio 6
 
 for (let percorre = 0; percorre < numbers.length; percorre += 1) {
     if (numbers[percorre] % 2 === 1) {
@@ -43,4 +43,25 @@ if (contadorimpar === 0) {
     console.log('Nenhum valor encontrado')
 } else {
     console.log('São ' + contadorimpar + ' Números Ímpares.');
+}
+
+// exercicio 7
+
+let menorValor = maiorValor;
+
+for (let indexMV = 0; indexMV < numbers.length; indexMV += 1) {
+
+    if (numbers[indexMV] < menorValor) {
+        menorValor = numbers[indexMV];
+    }
+    //console.log(numbers.length)
+}
+
+console.log('O menor valor é ' + menorValor);
+
+for (let i = 0; i <= 25; i += 1) {
+
+    let divisao = i / 2;
+
+    console.log(divisao);
 }

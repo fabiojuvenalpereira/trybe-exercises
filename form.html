@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header id="header-page">
+  </header>
+  <main>
+    <form action="GET" class="content-principal">
+      
+      <div id="title">
+        <h1>Currículo</h1>
+      </div>
+
+      <div class="size-content">
+
+        <fieldset class="main-content">
+          <div class="basic-config">
+            <label for="full-name">Nome:</label>
+            <input type="text" id="full-name" name="name" placeholder="Seu nome aqui" required maxlength="40">
+          </div>
+          <div class="basic-config">
+            <label for="e-mail">E-mail:</label>
+            <input type="email" id="e-mail" name="email" placeholder="Seu e-mail aqui" required maxlength="50">
+          </div>      
+          <div class="basic-config">
+            <label for="input-cpf">CPF:</label>
+            <input type="number" name="cpf" id="input-cpf" placeholder="Digite seu CPF" required maxlength="11">
+          </div>
+          <div class="basic-config">
+            <label for="input-adress">Endereço:</label>
+            <input type="text" name="adress" id="input-adress" placeholder="Digite seu E-mail" required maxlength="200">
+          </div>
+          <div class="basic-config">
+            <label for="input-city">Cidade:</label>
+            <input type="text" name="city" id="input-city" placeholder="Digite sua cidade" required maxlength="28">
+          </div>
+          <div class="basic-config">  
+            <label for="input-estados">Estado</label>
+            <select name="estados" id="input-estados" required>
+            </select>
+          </div>
+        </fieldset>
+
+      </div>
+
+      <div class="size-content">
+
+        <fieldset class="main-content">
+
+          <div id="title">
+            <h3>DADOS DOS SEU ÚLTIMO EMPREGO</h3>
+          </div>
+
+          <div class="basic-config">
+            <label for="input-abstract">Resumo do Currículo:</label>
+            <textarea name="abstract" id="input-abstract" maxlength="1000" required></textarea>
+          </div>
+          
+          <div>
+
+          </div>
+
+        </fieldset>
+
+      </div>
+     
+      
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

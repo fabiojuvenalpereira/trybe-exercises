@@ -11,11 +11,11 @@
   <main>
     <form action="GET" class="content-principal">
       
-      <div id="title">
-        <h1>Currículo</h1>
-      </div>
+      <section class="size-content">
 
-      <div class="size-content">
+        <div id="title">
+          <h1>Currículo</h1>
+        </div>
 
         <fieldset class="main-content">
           <div class="basic-config">
@@ -26,9 +26,9 @@
             <label for="e-mail">E-mail:</label>
             <input type="email" id="e-mail" name="email" placeholder="Seu e-mail aqui" required maxlength="50">
           </div>      
-          <div class="basic-config">
+          <div class="basic-config cpf">
             <label for="input-cpf">CPF:</label>
-            <input type="number" name="cpf" id="input-cpf" placeholder="Digite seu CPF" required maxlength="11">
+            <input type="text" name="cpf" id="input-cpf" placeholder="Digite seu CPF" required maxlength="11">
           </div>
           <div class="basic-config">
             <label for="input-adress">Endereço:</label>
@@ -45,30 +45,42 @@
           </div>
         </fieldset>
 
-      </div>
+      </section>
 
-      <div class="size-content">
+      <section class="size-content">
+
+        <div id="title">
+          <h3>DADOS DOS SEU ÚLTIMO EMPREGO</h3>
+        </div>
 
         <fieldset class="main-content">
-
-          <div id="title">
-            <h3>DADOS DOS SEU ÚLTIMO EMPREGO</h3>
-          </div>
-
           <div class="basic-config">
             <label for="input-abstract">Resumo do Currículo:</label>
-            <textarea name="abstract" id="input-abstract" maxlength="1000" required></textarea>
+            <textarea name="abstract" id="input-abstract" maxlength="1000" placeholder="Digite seu resumo aqui" required></textarea>
           </div>
-          
-          <div>
-
+          <div class="basic-config">
+            <label for="input-role">Cargo:</label>
+            <input type="text" name="role" id="input-role" maxlength="40" placeholder="Seu Cargo" required>
           </div>
-
+          <div class="basic-config">
+            <label for="input-role-Description">Descrição:</label>
+            <input type="text" name="roleDescription" id="input-role-Description" maxlength="500" placeholder="Descrição do Cargo" required>
+          </div>
+          <div class="basic-config" id="date">
+            <label for="input-role-Description">Data de Início:</label>
+            <input type="text" name="initiationDate" id="input-initiation-date" maxlength="10" placeholder="dd/mm/aaaa" required>
+          </div>
         </fieldset>
 
-      </div>
-     
+      </section>
+
+      <section class="size-content">
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
       
+      </section>
+     
     </form>
   </main>
 

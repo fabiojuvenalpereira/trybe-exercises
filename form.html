@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>Document</title>
 </head>
@@ -9,66 +10,78 @@
   <header id="header-page">
   </header>
   <main>
-    <form method="GET" class="content-principal">
-      <section class="size-content">
+    <form method="GET" class="content-principal conteiner">
+      <section class="container-md">
         <div id="title">
           <h1>Currículo</h1>
         </div>
-        <fieldset class="main-content">
-          <div class="basic-config">
-            <label for="full-name">Nome:</label>
-            <input type="text" id="full-name" name="name" placeholder="Seu nome aqui" required maxlength="40">
+        <fieldset>
+
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="full-name">Nome:</label>
+            <input type="text" id="full-name" name="name" class="form-control" placeholder="Seu nome aqui" required maxlength="40">
           </div>
-          <div class="basic-config">
-            <label for="e-mail">E-mail:</label>
-            <input type="email" id="e-mail" name="email" placeholder="Seu e-mail aqui" required maxlength="50">
-          </div>      
-          <div class="basic-config cpf">
-            <label for="input-cpf">CPF:</label>
-            <input type="text" name="cpf" id="input-cpf" placeholder="Digite seu CPF (Somente Números)" required maxlength="11">
+
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="e-mail">E-mail:</label>
+            <input type="email" id="e-mail" name="email" class="form-control" placeholder="Seu e-mail aqui" required maxlength="50">
+          </div>   
+
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="input-cpf">CPF:</label>
+            <input type="text" name="cpf" id="input-cpf" class="form-control" placeholder="Digite seu CPF (Somente Números)" required maxlength="11">
           </div>
-          <div class="basic-config">
-            <label for="input-adress">Endereço:</label>
-            <input type="text" name="adress" id="input-adress" placeholder="Rua exemplo, 12, Bairro." required maxlength="200">
+
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="input-adress">Endereço:</label>
+            <input type="text" name="adress" id="input-adress" class="form-control" placeholder="Rua exemplo, 12, Bairro." required maxlength="200">
           </div>
-          <div class="basic-config">
-            <label for="input-city">Cidade:</label>
-            <input type="text" name="city" id="input-city" placeholder="Digite sua cidade" required maxlength="28">
+
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="input-city">Cidade:</label>
+            <input type="text" name="city" id="input-city" class="form-control" placeholder="Digite sua cidade" required maxlength="28">
           </div>
-          <div class="basic-config">  
-            <label for="input-estados">Estado</label>
-            <select name="estados" id="input-estados" required>
+
+          <div class="input-group mb-3">  
+            <label class="input-group-text" for="input-estados">Estado</label>
+            <select name="estados" id="input-estados" class="form-select" required>
             </select>
           </div>
+          
         </fieldset>
       </section>
-      <section class="size-content">
+      <section class="container-md">
         <div id="title">
           <h3>DADOS DOS SEU ÚLTIMO EMPREGO</h3>
         </div>
-        <fieldset class="main-content">
-          <div class="basic-config">
-            <label for="input-abstract">Resumo do Currículo:</label>
-            <textarea name="abstract" id="input-abstract" maxlength="1000" placeholder="Digite seu resumo aqui" required></textarea>
+        <fieldset >
+
+          <div class="mb-3" text-area">
+            <label class="input-group-text" for="input-abstract">Resumo do Currículo:</label>
+            <textarea name="abstract" id="input-abstract" class="form-control" maxlength="1000" placeholder="Digite seu resumo aqui" required></textarea>
           </div>
-          <div class="basic-config">
-            <label for="input-role">Cargo:</label>
-            <input type="text" name="role" id="input-role" maxlength="40" placeholder="Seu Cargo" required>
+
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="input-role">Cargo:</label>
+            <input type="text" name="role" id="input-role" class="form-control" maxlength="40" placeholder="Seu Cargo" required>
           </div>
-          <div class="basic-config">
-            <label for="input-role-Description">Descrição:</label>
-            <input type="text" name="roleDescription" id="input-role-Description" maxlength="500" placeholder="Descrição do Cargo" required>
+
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="input-role-Description">Descrição:</label>
+            <input type="text" name="roleDescription" id="input-role-Description" class="form-control" maxlength="500" placeholder="Descrição do Cargo" required>
           </div>
-          <div class="basic-config" id="date">
-            <label for="input-role-Description">Data de Início:</label>
-            <input type="text" name="initiationDate" id="input-initiation-date" maxlength="10" placeholder="dd/mm/aaaa" required>
+
+          <div class="input-group mb-3" id="date">
+            <label class="input-group-text" for="input-role-Description">Data de Início:</label>
+            <input type="text" name="initiationDate" id="input-initiation-date" class="form-control" maxlength="10" placeholder="dd/mm/aaaa" required>
           </div>
+          
         </fieldset>
       </section>
-      <section class="size-content">
-        <button id="submit" type="submit">Enviar</button>
-        <button type="reset">Limpar</button>
-        <button id="prevent" >PreventDefault</button>
+      <section class="container">
+        <button id="submit" class="btn btn-primary" type="submit">Enviar</button>
+        <button class="btn btn-primary" type="reset">Limpar</button>
+        <button id="prevent" class="btn btn-primary">PreventDefault</button>
       </section>
     </form>
   </main>

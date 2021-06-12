@@ -9,14 +9,11 @@
   <header id="header-page">
   </header>
   <main>
-    <form action="GET" class="content-principal">
-      
+    <form method="GET" class="content-principal">
       <section class="size-content">
-
         <div id="title">
           <h1>Currículo</h1>
         </div>
-
         <fieldset class="main-content">
           <div class="basic-config">
             <label for="full-name">Nome:</label>
@@ -28,11 +25,11 @@
           </div>      
           <div class="basic-config cpf">
             <label for="input-cpf">CPF:</label>
-            <input type="text" name="cpf" id="input-cpf" placeholder="Digite seu CPF" required maxlength="11">
+            <input type="text" name="cpf" id="input-cpf" placeholder="Digite seu CPF (Somente Números)" required maxlength="11">
           </div>
           <div class="basic-config">
             <label for="input-adress">Endereço:</label>
-            <input type="text" name="adress" id="input-adress" placeholder="Digite seu E-mail" required maxlength="200">
+            <input type="text" name="adress" id="input-adress" placeholder="Rua exemplo, 12, Bairro." required maxlength="200">
           </div>
           <div class="basic-config">
             <label for="input-city">Cidade:</label>
@@ -44,15 +41,11 @@
             </select>
           </div>
         </fieldset>
-
       </section>
-
       <section class="size-content">
-
         <div id="title">
           <h3>DADOS DOS SEU ÚLTIMO EMPREGO</h3>
         </div>
-
         <fieldset class="main-content">
           <div class="basic-config">
             <label for="input-abstract">Resumo do Currículo:</label>
@@ -71,19 +64,14 @@
             <input type="text" name="initiationDate" id="input-initiation-date" maxlength="10" placeholder="dd/mm/aaaa" required>
           </div>
         </fieldset>
-
       </section>
-
       <section class="size-content">
-
-        <button type="submit">Enviar</button>
+        <button id="submit" type="submit">Enviar</button>
         <button type="reset">Limpar</button>
-      
+        <button id="prevent" >PreventDefault</button>
       </section>
-     
     </form>
   </main>
-
   <script src="script.js"></script>
 </body>
 

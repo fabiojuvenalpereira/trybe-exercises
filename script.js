@@ -40,6 +40,7 @@ const getDescriptCargo = document.querySelector('#input-role-Description');
 const getDate = document.querySelector('#input-initiation-date');
 const submit = document.querySelector('#submit');
 const tela = document.querySelector('main');
+const body = document.querySelector('body');
 
 function getStates() {
   for (let index in estadosBrasileiros) {
@@ -74,31 +75,35 @@ function verifyDay() {
 function verifyMonth() { 
   const dateValue = getDate.value;
   const month = dateValue[3].concat(dateValue[4]);
-  if (month > 0 && month < 13 ){
+  if (month > 0 && month < 13 ) {
     return true;
   } else {
     return false;    
   }
 }
 
-function verifyYear(){
+function verifyYear() {
   const dateValue = getDate.value;
   const year = dateValue[6].concat(dateValue[7],dateValue[8],dateValue[9]);
-  if(year > 1900 && year < 2022){
+  if(year > 1900 && year < 2022) {
     return true;
   } else {
     return false;
   }
 }
 
-function verificaData(){
+function verificaData() {
   const divDay = criaDiv();
   const dateDay = verifyDay();
   const dateMonth = verifyMonth();
   const dateYear = verifyYear();
   const p = document.createElement('p');
-  if (dateDay && dateMonth && dateYear === true){
-    return true
+  
+  if (dateDay && dateMonth && dateYear === true) {
+    return true;
+  } else if (dateDay && dateMonth && dateYear === false) {
+    divDay.innerText = 'Data inserida inválida';
+    tela.appendChild(divDay);
   } else if (dateDay === false) {
     divDay.innerText = 'Dia inválido, por favor insira um dia correto!';
     tela.appendChild(divDay);
@@ -108,13 +113,8 @@ function verificaData(){
   } else if (dateYear === false) {
     divDay.innerText = 'O ano inserido é inválido, por favor insira um dia correto!';
     tela.appendChild(divDay);
-  } else {
-    divDay.innerText = 'Data inserida inválida';
-    tela.appendChild(divDay);
-  }
-
+  } 
 }
-const body = document.querySelector('body');
 
 body.addEventListener('click', (even) => {
   if(even.target.classList.contains('divMeio')){

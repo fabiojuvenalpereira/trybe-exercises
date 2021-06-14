@@ -97,14 +97,8 @@ function verificaData() {
   const dateDay = verifyDay();
   const dateMonth = verifyMonth();
   const dateYear = verifyYear();
-  const p = document.createElement('p');
   
-  if (dateDay && dateMonth && dateYear === true) {
-    return true;
-  } else if (dateDay && dateMonth && dateYear === false) {
-    divDay.innerText = 'Data inserida inválida';
-    tela.appendChild(divDay);
-  } else if (dateDay === false) {
+  if (dateDay === false) {
     divDay.innerText = 'Dia inválido, por favor insira um dia correto!';
     tela.appendChild(divDay);
   } else if (dateMonth === false) {

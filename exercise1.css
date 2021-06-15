@@ -13,22 +13,47 @@ h1 {
 img {
     max-width: 100%;
     border-radius: 20px;
-    filter: blur(1px);
+    box-shadow: 2px 2px 5px 2px black;
+    margin-bottom: ;
 }
 
-.figures {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
 
 @media screen and (min-width:800px) {
+    
     body {
-    background-color: beige;
-    margin: 50px;
+        background-color: beige;
+    }
+
+    body h1 {
+        font-size: 2em;
+    }
+
+    .figures {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .figures figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+    }
+    
+}
+
+@media screen and (min-width: 1300px) {
+    body{
+        background-color: azure;
+        margin: 20px 100px;
+        max-width: 1300px;
     }
     body h1 {
+        font-size: 2em;
+    }
+    
+    body p {
         font-size: 2em;
     }
 }

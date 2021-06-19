@@ -18,9 +18,9 @@ Para rodar os códigos sem erro sugiro utilizar [Node.js](https://nodejs.org/) v
 Para rodar o código, basta fazer o download de 
 
 #### Os links abaixo contém alguns sites e fóruns, que podem ser interessantes e possuem algumas referências:
-https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
-https://stackoverflow.com/
-https://www.w3schools.com/jsref/default.asp
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+- https://stackoverflow.com/
+- https://www.w3schools.com/jsref/default.asp
 
 ### Agradecimentos
 Agradecimentos a todas as pessoas instrutoras da TRYBE e aos colegas de turma que sempre colaboraram e ajudam a esclarecer algumas dúvidas.

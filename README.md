@@ -13,7 +13,7 @@ Para desenvolver as atividades estão sendo utilizadas as seguintes ferramentas:
 - [Visual Code Studio] - O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
 
 #### Caso queia instalar o Programa
-Para rodar o código sem erro sugiro [Node.js](https://nodejs.org/) v14+ para rodar.
+Para rodar os códigos sem erro sugiro utilizar [Node.js](https://nodejs.org/) v14+ para rodar.
 #### Instruções
 Para rodar o código, basta fazer o download de 
 

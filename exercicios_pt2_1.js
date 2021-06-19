@@ -21,8 +21,10 @@ const lesson3 = {
 const changeLessons2 = (lesson2) => lesson2.turno = 'manhã';
 const getKeys = (lesson1) => Object.keys(lesson1);
 const sizeObject = (lesson3) => Object.keys(lesson3).length;
+const values = (lesson1) => Object.values(lesson1);
 
-console.log(changeLessons2(lesson2));
-console.log(lesson2);
-console.log(getKeys(lesson1));
-console.log(sizeObject(lesson3));
+// console.log(changeLessons2(lesson2));
+// console.log(lesson2);
+// console.log(getKeys(lesson1));
+// console.log(sizeObject(lesson3));
+console.log(values(lesson1));

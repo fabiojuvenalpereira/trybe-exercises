@@ -18,15 +18,11 @@ const lesson3 = {
   turno: 'noite',
 };
 
-const changeLessons2 = (lesson2) => {
-  const addTurno = lesson2.turno = 'manhã';
-  console.log(lesson2);
-}
-
-const getKeys = (lesson1) => {
-  const keys = Object.keys(lesson1);
-  return keys;
-}
+const changeLessons2 = (lesson2) => lesson2.turno = 'manhã';
+const getKeys = (lesson1) => Object.keys(lesson1);
+const sizeObject = (lesson3) => Object.keys(lesson3).length;
 
 console.log(changeLessons2(lesson2));
+console.log(lesson2);
 console.log(getKeys(lesson1));
+console.log(sizeObject(lesson3));

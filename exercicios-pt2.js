@@ -109,6 +109,7 @@ function longestNamedBook() {
   return nameBook
 }
 
+
 assert.deepStrictEqual(longestNamedBook(), expectedResult2);
 assert.strictEqual(averageAge(), expectedResult1);
 assert.strictEqual(reduceNames(), expectedResult);

@@ -181,6 +181,25 @@ function oldBooksOrdered() {
   })
 }
 
+const expectedResult4 = [
+  'Frank Herbert',
+  'George R. R. Martin',
+  'Isaac Asimov',
+  'J. R. R. Tolkien',
+];
+
+function fantasyOrScienceFictionAuthors() {
+  let getNames = books.filter((book) => {
+    if (book.genre === 'Fantasia' || book.genre === 'Ficção Científica') {
+      return book.author.name
+    }
+  }).map((livro) => livro.author.name)
+
+  return getNames.sort();
+}
+
+// console.log(fantasyOrScienceFictionAuthors());
+assert.deepStrictEqual(fantasyOrScienceFictionAuthors(), expectedResult4);
 assert.deepStrictEqual(oldBooksOrdered(), expectedResult3);
 assert.deepStrictEqual(fantasyOrScienceFiction(), expectedResult2);
 assert.deepStrictEqual(nameAndAge(), expectedResult1);

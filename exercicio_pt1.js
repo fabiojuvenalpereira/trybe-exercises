@@ -221,11 +221,10 @@ function authorWith3DotsOnName() {
       return livro.endsWith('.')
     }).length === 3
   })
-  return nameAuthor
+  return nameAuthor.name
 }
 
-console.log(authorWith3DotsOnName())
-// assert.deepStrictEqual(authorWith3DotsOnName(), expectedResult6);
+assert.deepStrictEqual(authorWith3DotsOnName(), expectedResult6);
 assert.deepStrictEqual(oldBooks(), expectedResult5);
 assert.deepStrictEqual(fantasyOrScienceFictionAuthors(), expectedResult4);
 assert.deepStrictEqual(oldBooksOrdered(), expectedResult3);

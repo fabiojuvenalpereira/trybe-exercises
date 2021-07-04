@@ -198,7 +198,35 @@ function fantasyOrScienceFictionAuthors() {
   return getNames.sort();
 }
 
-// console.log(fantasyOrScienceFictionAuthors());
+const expectedResult5 = [
+  'O Senhor dos Anéis',
+  'Fundação',
+  'O Chamado de Cthulhu',
+];
+
+function oldBooks() {
+  const atualDate = new Date().getFullYear() - 60;
+  return books.filter((book) => {
+    if (book.releaseYear < atualDate) {
+      return book.name
+    }
+  }).map((livro) => livro.name)
+}
+
+const expectedResult6 = 'O Senhor dos Anéis';
+
+function authorWith3DotsOnName() {
+  let nameAuthor = books.find((book) => {
+    return book.author.name.split(' ').filter((livro) => {
+      return livro.endsWith('.')
+    }).length === 3
+  })
+  return nameAuthor
+}
+
+console.log(authorWith3DotsOnName())
+// assert.deepStrictEqual(authorWith3DotsOnName(), expectedResult6);
+assert.deepStrictEqual(oldBooks(), expectedResult5);
 assert.deepStrictEqual(fantasyOrScienceFictionAuthors(), expectedResult4);
 assert.deepStrictEqual(oldBooksOrdered(), expectedResult3);
 assert.deepStrictEqual(fantasyOrScienceFiction(), expectedResult2);

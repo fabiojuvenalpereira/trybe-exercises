@@ -23,4 +23,4 @@ Para rodar o código, basta fazer o download de
 - https://www.w3schools.com/jsref/default.asp
 
 ### Agradecimentos
-Agradecimentos a todas as pessoas instrutoras da TRYBE e aos colegas de turma que sempre colaboraram e ajudam a esclarecer algumas dúvidas.
+Agradecimentos a todas as pessoas instrutoras da TRYBE e aos colegas de turma que sempre colaboraram e ajudam a esclarecer algumas dúvidas...

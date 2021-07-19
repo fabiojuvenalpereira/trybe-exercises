@@ -1,0 +1,27 @@
+{
+  "name": "trybe-exercises",
+  "version": "1.0.0",
+  "description": "[![N|trybe](https://uploads-ssl.webflow.com/5fba98ad987231cf0efa3d58/5fba9c9a93a2e77624258d49_Logo.svg)](https://www.betrybe.com/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiojuvenalpereira/trybe-exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiojuvenalpereira/trybe-exercises/issues"
+  },
+  "homepage": "https://github.com/fabiojuvenalpereira/trybe-exercises#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.24",
+    "node-fetch": "^2.6.1"
+  }
+}

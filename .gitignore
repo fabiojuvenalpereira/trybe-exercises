@@ -12,8 +12,6 @@
 
 # Local History for Visual Studio Code
 .history/
-package.json
-package-lock.json
 node_modules
 ### VisualStudioCode Patch ###
 # Ignore all local history of files

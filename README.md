@@ -4,6 +4,8 @@
 ##### Quer conhecer mais sobre a TRYBE? Dê uma olhadinha neste link a seguir:
 [![N|trybe](https://uploads-ssl.webflow.com/5fba98ad987231cf0efa3d58/5fba9c9a93a2e77624258d49_Logo.svg)](https://www.betrybe.com/)
 
+Todos os exercícios realizados podem ser encontrados nas branchs deste repositório.
+
 Para desenvolver as atividades estão sendo utilizadas as seguintes ferramentas:
 - NODE 
 - HTML

@@ -2,7 +2,12 @@
 ## Seja muito Bem-Vindx 
 #### Aqui você irá encontrar todos os exercícios realizados no primeiro módulo, Fundamentos do Desenvolvimento Web
 ##### Quer conhecer mais sobre a TRYBE? Dê uma olhadinha neste link a seguir:
-[![N|trybe](https://res.cloudinary.com/practicaldev/image/fetch/s--Eg8INSNe--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/5302/26258239-4ac6-4d28-b94c-ba6d3f9eabc2.png)
+
+<div >
+  <a href="https://www.betrybe.com/">
+    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Eg8INSNe--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/5302/26258239-4ac6-4d28-b94c-ba6d3f9eabc2.png" alt="logo trybe" width="50" /> 
+  </a>
+</div>
 
 ### Todos os exercícios realizados podem ser encontrados nas branches deste repositório.
 
